@@ -36,6 +36,13 @@ a{
     margin-left:110px;
     color:goldenrod;
 }
+.footer{
+    height:100%;
+}
+.footer-icon{
+    font-size: 25px;
+    
+}
 
 /* Responsive Start */
 
