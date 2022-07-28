@@ -1,6 +1,31 @@
 .carousel-hight{
-    min-height: 45vh;
+    min-height: 75vh;
 }
 .carousel-img{
     object-fit: cover;
 }
+.course-img{
+    height:100%;
+    width: 100%;
+}
+.course-card{
+    width: 130%;
+}
+@media screen and (max-width:576px){
+
+    .course-img{
+        width:100%;
+    }
+    .course-card{
+        width:100%;
+    }
+
+}
+@media screen and (min-width:577px)and(max-width:992px) {
+    
+    .course-card{
+        height:100px;
+    }
+    
+}
+    
