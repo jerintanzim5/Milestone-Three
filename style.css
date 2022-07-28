@@ -46,8 +46,8 @@ a{
 
 /* Responsive Start */
 
-/*phone*/
-@media only screen and (max-width: 688px) {
+/*Small Device*/
+@media only screen and (max-width:576px) {
     .course-img{
         width:100%;
     }
@@ -77,19 +77,32 @@ a{
         margin-top: 30px;
     }
     .icon{
-        margin-left:220px;
+        margin-left:100px;
     }
+    .Students-Feedback{
+
+        margin-left:30px;
+        margin-right: 40px;
+    
+    }
+    
     
 
 }
 
-/* Tab */
-    @media only screen and (min-width:689px) and (max-width:992px){
+/* Phone */
+    @media only screen and (min-width:577px) and (max-width:768px){
         .course-img{
-            width:100%!important;
+            width:100%;
         }
         .course-card{
-            width: 100%!important;
+            width:100%;
+        }
+        .course-button{
+            margin-left: 212px;
+        }
+        .read-more-button{
+            margin-left: 200px;
         }
         .working-img{
             width:150%!important;
@@ -101,30 +114,105 @@ a{
       
         }
         .student-view-button{
-            margin-left:320px;
+            margin-left: 220px;
             margin-top:30px;
+        }
+        .icon{
+            margin-left: 259px;
         }
 
 
 }
 
-/* leptop */
-    @media only screen and (min-width:993px) and (max-width:1312px){
+/*Tablet*/
+    @media only screen and (min-width:769px) and (max-width:992px){
         .register-button{
             margin-top:60px;
             margin-left:80px;
-      
         }
+        .working-img{
+            height: 600px;
+        }
+        
         .student-view-button{
-            margin-left:440px;
+            margin-left: 316px;
             margin-top:30px;
            
         }
         .icon{
-            margin-left:220px;
+            margin-left:100px;
+        }
+        .Students-Feedback{
+            height: 450px;
+            margin-top: 25px;
+
         }
 }
+/* Laptop */
+@media only screen and (min-width:993px) and (max-width:1200px){
+    .register-button{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .student-view-button{
+        margin-left: 428px;
+        margin-top:30px;
+       
+    }
+    .Students-Feedback{
+        height: 450px;
+        margin-top: 25px;
+
+    }
+  
+}
+
+/* Desktop */
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    .register-button{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .student-view-button{
+        margin-left: 530px;
+        margin-top:30px;
+       
+    }
+    .Students-Feedback{
+        height: 450px;
+        margin-top: 25px;
+
+    }
+    .see-more-btn{
+        margin-left: 473px;
+    }
+
+}
+
+/* Extra Extra large */
+
+@media only screen and (min-width:1401px) and (max-width:1920px){
+    .register-button{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .student-view-button{
+        margin-left: 612px;
+        margin-top:30px;
+       
+    }
+    .Students-Feedback{
+        height: 450px;
+        margin-top: 25px;
+
+    }
+    .see-more-btn{
+        margin-left: 571px;
+    }
+
+
+}
+
+
 
 /* Responsive End */
-
-
